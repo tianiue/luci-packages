@@ -16,4 +16,3 @@ PKG_MAINTAINER:=sirpdboy <https://github.com/sirpdboy/luci-app-autopoweroff/>
 include $(TOPDIR)/feeds/luci/luci.mk
 
 # call BuildPackage - OpenWrt buildroot signature
-
