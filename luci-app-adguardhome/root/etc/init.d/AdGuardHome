@@ -415,7 +415,7 @@ start_service() {
 	fi
 	# for overlay data-stk-oo not suppport
 	local cwdfs=$(get_filesystem $workdir)
-	echo "workdir is a $cwdfs filesystem"
+	echo "工作目录文件系统: $cwdfs"
 	if [ "$cwdfs" == "jffs2" ]; then
 		echo "fs error ln db to tmp $workdir $cwdfs"
 		logger "AdGuardHome" "warning db redirect to tmp"
@@ -483,14 +483,14 @@ start_service() {
 			echo "no config start watching"
 		fi
 	fi
-	echo "AdGuardHome service enabled"
+	echo "AdGuardHome 服务已启用"
 	echo "luci enable switch=$enabled"
 	(sleep 10 && [ -z "$(pgrep $binpath)" ] && logger "AdGuardHome" "no process in 10s cancel redirect" && _do_redirect 0 )&
 }
 reload_service()
 {
 	rm /var/run/AdGlucitest >/dev/null 2>&1
-	echo "AdGuardHome reloading"
+	echo "重载 AdGuardHome 服务..."
 	start
 }
 
@@ -522,7 +522,7 @@ stop_service()
 			backup
 		fi
 	fi
-	echo "AdGuardHome service disabled"
+	echo "AdGuardHome 服务已禁用"
 	touch /var/run/AdGserverdis
 }
 boot() {
