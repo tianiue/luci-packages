@@ -17,7 +17,7 @@
 全新的 Openwrt 主题，基于luci-theme-argon 主题进行修改。 
 
 ## 注意
-仅适用于 luci 19.07
+仅适用于 luci 18.06
 
 ## 感谢
 luci-theme-argon: https://github.com/jerrykuku/luci-theme-argon
