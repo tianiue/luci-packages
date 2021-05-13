@@ -57,13 +57,13 @@ https://github.com/xiaoqingfengATGH/HomeLede
 
 屏幕截图
 ----------------
-![](/screenshots/000.Login.jpg)
-![](/screenshots/001.Overview.jpg)
-![](/screenshots/002.Firewall.jpg)
-![](/screenshots/003.KernelLog.jpg)
-![](/screenshots/004.Route.jpg)
-![](/screenshots/005.SysLog.jpg)
-![](/screenshots/100.System.jpg)
-![](/screenshots/101.SoftwarePkgs.jpg)
-![](/screenshots/207.upnp.jpg)
-![](/screenshots/304.Samba.jpg)
+![](/luci-packages/screenshots/000.Login.jpg)
+![](/luci-packages/screenshots/001.Overview.jpg)
+![](/luci-packages/screenshots/002.Firewall.jpg)
+![](/luci-packages/screenshots/003.KernelLog.jpg)
+![](/luci-packages/screenshots/004.Route.jpg)
+![](/luci-packages/screenshots/005.SysLog.jpg)
+![](/luci-packages/screenshots/100.System.jpg)
+![](/luci-packages/screenshots/101.SoftwarePkgs.jpg)
+![](/luci-packages/screenshots/207.upnp.jpg)
+![](/luci-packages/screenshots/304.Samba.jpg)
