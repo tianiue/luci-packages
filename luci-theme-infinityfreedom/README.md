@@ -57,7 +57,7 @@ https://github.com/xiaoqingfengATGH/HomeLede
 
 屏幕截图
 ----------------
-![](/luci-packages/screenshots/000.Login.jpg)
+https://github.com/tianiue/luci-packages/blob/master/luci-theme-infinityfreedom/screenshots/000.Login.jpg
 ![](/luci-packages/screenshots/001.Overview.jpg)
 ![](/luci-packages/screenshots/002.Firewall.jpg)
 ![](/luci-packages/screenshots/003.KernelLog.jpg)
