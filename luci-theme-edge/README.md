@@ -18,6 +18,7 @@
 
 ## 注意
 仅适用于 luci 18.06
+
 Luci 18.06: https://github.com/garypang13/luci-theme-edge/tree/18.06
 
 ## 感谢
