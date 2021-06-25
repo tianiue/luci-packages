@@ -18,6 +18,17 @@
 
 ## 注意
 仅适用于 luci 18.06
+Luci 18.06: https://github.com/garypang13/luci-theme-edge/tree/18.06
 
 ## 感谢
 luci-theme-argon: https://github.com/jerrykuku/luci-theme-argon
+
+![](/Screenshots/1.png)
+![](/Screenshots/2.png)
+![](/Screenshots/3.png)
+![](/Screenshots/4.png)
+![](/Screenshots/5.png)
+<br/>
+<br />
+<br />
+<img src="/Screenshots/6.png" width="550" />
