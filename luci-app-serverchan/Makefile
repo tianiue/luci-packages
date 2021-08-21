@@ -9,24 +9,22 @@ PKG_NAME:=luci-app-serverchan
 PKG_VERSION:=1.90
 PKG_RELEASE:=9
 
-PKG_MAINTAINER:=tty228
-
 include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
-	SECTION:=luci
-	CATEGORY:=LuCI
-	SUBMENU:=3. Applications
-	DEPENDS:=+iputils-arping +curl
-	TITLE:=LuCI support for serverchan
-	PKGARCH:=all
+  SECTION:=luci
+  CATEGORY:=LuCI
+  SUBMENU:=3. Applications
+  DEPENDS:=+iputils-arping +curl
+  TITLE:=LuCI support for serverchan
+  PKGARCH:=all
 endef
 
 define Build/Compile
 endef
 
 define Package/$(PKG_NAME)/conffiles
-	/etc/config/serverchan
+/etc/config/serverchan
 endef
 
 define Package/$(PKG_NAME)/install
