@@ -31,15 +31,14 @@ opkg install luci-app-aliyundrive-webdav_0.4.2_all.ipk
 opkg install luci-i18n-aliyundrive-webdav-zh-cn_0.4.2-1_all.ipk
 ```
 
-![OpenWrt 配置界面](<img width="1243" alt="openwrt" src="https://user-images.githubusercontent.com/61725402/136662355-815697a7-5769-41cb-bd38-961b5f1299e6.png">
-)
+<img width="1243" alt="openwrt" src="https://user-images.githubusercontent.com/61725402/136662355-815697a7-5769-41cb-bd38-961b5f1299e6.png">
 
 ### Koolshare 梅林固件
 
 [GitHub Releases](https://github.com/messense/aliyundrive-webdav/releases) 中有预编译包 `aliyundrivewebdav-merlin-arm*.tar.gz`，
 目前提供了旧的 arm380 和兼容 arm384/386 固件的版本，可在下载后在软件中心离线安装。
 
-![梅林配置界面](<img width="766" alt="merlin" src="https://user-images.githubusercontent.com/61725402/136662365-1d06fc90-0e25-492c-9496-62f0f2cd8eef.png">)
+<img width="766" alt="merlin" src="https://user-images.githubusercontent.com/61725402/136662365-1d06fc90-0e25-492c-9496-62f0f2cd8eef.png">
 
 ## Docker 运行
 
@@ -108,8 +107,7 @@ OPTIONS:
 Application -> Local Storage 中的 `token` 字段中找到。  
 注意：不是复制整段 JSON 值，而是 JSON 里 `refresh_token` 字段的值，如下图所示红色部分：
 
-![refresh token](![refresh_token](https://user-images.githubusercontent.com/61725402/136662379-46cb4b87-74f1-4c38-9d87-5a4fb3fecf6f.png)
-)
+![refresh_token](https://user-images.githubusercontent.com/61725402/136662494-e4e30dba-dbc5-4b4f-96b6-75966a78a3f5.png)
 
 ## License
 
