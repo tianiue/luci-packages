@@ -1,34 +1,42 @@
-# nas-packages-luci
-luci for [nas-packages](https://github.com/linkease/nas-packages)
+# 项目迁移了，请看：
+
+项目已经迁移到新地址：https://github.com/linkease/nas-packages
+
+# ddnsto-openwrt
+ddnsto for openwrt
 
 ## 使用方法
 
-### 增加feed源
+把文件夹 ddnsto 拷贝到 Openwrt 源代码的 package/network/services 里面，拷贝之后为：
 
-```shell
-echo >> feeds.conf.default
-echo 'src-git nas https://github.com/linkease/nas-packages.git;master' >> feeds.conf.default
-echo 'src-git nas_luci https://github.com/linkease/nas-packages-luci.git;main' >> feeds.conf.default
-./scripts/feeds update nas nas_luci
-./scripts/feeds install -a -p nas
-./scripts/feeds install -a -p nas_luci
+```
+tree package/network/services/ddnsto
+package/network/services/ddnsto
+├── files
+│   ├── ddnsto.config
+│   ├── ddnsto.init
+│   └── ddnsto.uci-default
+└── Makefile
 ```
 
-### 集成软件包
+### make menuconfig 选择方法
 
-```shell
+```
 make menuconfig
-```
 
-选择软件包
-```plain
+Network --->
+Web Servers/Proxies --->
+<*> ddnsto....................................... DDNS.to - the reverse proxy
+
 LuCI --->
 3. Applications --->
 <*> luci-app-ddnsto.................................. LuCI support for ddnsto
-<*> luci-app-linkease.................................. LuCI support for linkease
 ```
 
-### 构建固件
-```shell
-make
+### 部分 Openwrt 老版本兼容性问题
+
+安装完成点击配置，需要手动运行命令：
+
+```
+/etc/init.d/ddnsto enable
 ```
