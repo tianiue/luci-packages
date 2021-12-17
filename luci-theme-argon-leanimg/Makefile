@@ -6,17 +6,13 @@
 
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=luci-theme-argon
-PKG_VERSION:=1.7.2
-PKG_RELEASE:=20211216
-
-PKG_MAINTAINER:=jerrykuku <jerrykuku@qq.com>
-
 LUCI_TITLE:=Argon Theme
-LUCI_PKGARCH:=all
 LUCI_DEPENDS:=
+PKG_VERSION:=1.7.2
+PKG_RELEASE:=20210309
 
 include $(TOPDIR)/feeds/luci/luci.mk
+
 
 define Package/luci-theme-argon/postinst
 #!/bin/sh
