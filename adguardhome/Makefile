@@ -7,11 +7,11 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=AdGuardHome
-PKG_VERSION:=0.107.0
+PKG_VERSION:=0.107.3
 PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_VERSION:=0aac9908c1d47d5a5d6d0bffd0be5fdcc2356d95
+PKG_SOURCE_VERSION:=ede85ab2f2aab990d6fd7e943d54d906279328be
 PKG_SOURCE_URL:=https://github.com/AdguardTeam/AdGuardHome
 PKG_MIRROR_HASH:=skip
 
@@ -59,7 +59,7 @@ endef
 
 ifeq ($(CONFIG_ADGUARDHOME_COMPRESS_GOPROXY),y)
 export GO111MODULE=on
-export GOPROXY=https://goproxy.io
+export GOPROXY=https://goproxy.bj.bcebos.com
 endif
 
 define Build/Compile
