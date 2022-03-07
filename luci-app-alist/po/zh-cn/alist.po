@@ -1,5 +1,5 @@
 msgid "Alist"
-msgstr "Alist 文件列表"
+msgstr "Alist文件列表"
 
 msgid "Running state"
 msgstr "运行状态"
@@ -36,4 +36,3 @@ msgstr "Alist 服务未启动"
 
 msgid "Collecting data..."
 msgstr "收集数据..."
-
