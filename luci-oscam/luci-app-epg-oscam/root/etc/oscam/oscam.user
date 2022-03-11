@@ -1,0 +1,91 @@
+[account]
+user                          = 1
+pwd                           = 1
+caid                          = 4A02
+suppresscmd08                 = 1
+keepalive                     = 1
+group                         = 1
+cccreshare                    = 10
+cccignorereshare              = 0
+
+[account]
+user                          = VU
+pwd                           = VU
+suppresscmd08                 = 1
+keepalive                     = 1
+group                         = 1
+max_connections               = 2
+cccreshare                    = 1
+cccignorereshare              = 0
+
+[account]
+user                          = h
+pwd                           = h
+caid                          = 4A02
+suppresscmd08                 = 1
+keepalive                     = 1
+group                         = 1
+preferlocalcards              = 2
+cccreshare                    = 10
+cccignorereshare              = 0
+
+[account]
+user                          = TX
+pwd                           = TX
+caid                          = 4A02
+suppresscmd08                 = 1
+keepalive                     = 1
+group                         = 1
+preferlocalcards              = 2
+cccreshare                    = 10
+cccignorereshare              = 0
+
+[account]
+user                          = C
+pwd                           = C
+caid                          = 4A02
+suppresscmd08                 = 1
+keepalive                     = 1
+group                         = 1
+cccreshare                    = 1
+cccignorereshare              = 0
+
+[account]
+user                          = T6A
+pwd                           = T6A
+caid                          = 4A02
+suppresscmd08                 = 1
+keepalive                     = 1
+group                         = 1
+cccreshare                    = 10
+cccignorereshare              = 0
+
+[account]
+user                          = T2
+pwd                           = T2
+caid                          = 4A02
+suppresscmd08                 = 1
+keepalive                     = 1
+group                         = 1
+cccreshare                    = 1
+cccignorereshare              = 0
+
+[account]
+user                          = HD51
+pwd                           = HD51
+suppresscmd08                 = 1
+keepalive                     = 1
+group                         = 1
+max_connections               = 2
+cccreshare                    = 10
+cccignorereshare              = 0
+
+[account]
+user                          = GEN8
+pwd                           = GEN8
+suppresscmd08                 = 1
+keepalive                     = 1
+group                         = 1
+max_connections               = 2
+cccreshare                    = 10
+cccignorereshare              = 0

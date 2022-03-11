@@ -1,0 +1,4 @@
+编译方法，将下载回来的oscam文件夹放到源码的package目录下，然后运行make package/oscam/compile V=s。
+编译好了的ipk文件会在bin/packages/XXXX/base下面
+如果启动不了请先同步下路由器系统时间，在系统-->系统-->基本设置-->同步浏览器时间。
+需要新版本的话只需要Makefile下的PKG_SOURCE_VERSION，上https://github.com/nx111/oscam.git 找到commit id，复制最新的那个就行了。
