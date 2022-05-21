@@ -1,5 +1,0 @@
-
-config oscam 'config'
-	option interval '0'
-	option enable '0'
-
