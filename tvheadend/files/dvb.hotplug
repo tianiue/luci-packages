@@ -1,7 +1,0 @@
-#!/bin/sh
-case "$ACTION" in
-  add)
-    chown -R root:dvb /dev/dvb/*/*
-    chmod -R 660 /dev/dvb/*/*
-    ;;
-esac
